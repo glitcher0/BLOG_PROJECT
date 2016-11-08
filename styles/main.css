@@ -1,0 +1,55 @@
+body {
+  background-color: #3a8de0;
+  margin:0;
+  padding:0;
+}
+
+p {
+  padding:5px;
+  margin:0;
+}
+
+div#page-container {
+  background-color: #3ab9e0;
+  width:80%;
+  height:100%;
+  overflow:auto;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  padding:20px;
+}
+
+div#nav {
+  border:1px solid #000;
+  border-radius: 5px;
+}
+
+div#modules {
+  border:1% solid #000;
+  border-radius: 5px;
+  float:right;
+  display:inline;
+  width:18%;
+}
+
+div#main-content {
+  border:1% solid #000;
+  border-radius: 5px;
+  width:78%;
+  height:100%;
+}
+
+div#header {
+  display:block;
+  height:10%;
+  width:inherit;
+  position:fixed;
+}
+
+div#footer {
+  clear:both;
+  height:10%;
+  width:inherit;
+  position:fixed;
+}
