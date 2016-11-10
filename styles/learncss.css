@@ -1,0 +1,35 @@
+body {
+    background:#3aa5f2;
+    font-family:arial;
+}
+
+h1, h2, li {
+    color:#555;
+}
+
+a {
+    color:green;
+}
+
+p {
+    background: #666;
+    color: #fff;
+    /*padding: 10px 10px;  topbottom leftright */
+    /*margin: 10px 10px 10px 10px;  top right bottom left */
+}
+
+.secondary {
+    background:#8b45b8;
+    color: #222;
+    font-size:20px;
+}
+
+/* rules apply in order, last rules getting the style */
+p {
+    color: #aaa;
+}
+
+#special {
+    background:red;
+    color:white;
+}
